@@ -52,9 +52,12 @@ changes
 
 ```bash
 git stash
-git checkout branch-name
-git stash pop
+git stash branch stash-branch
 ```
+
+![image](stash.png)
+![image](merge.png)
+
 
 - Create an annotated tag with tagname (v1.7)
 
@@ -86,5 +89,3 @@ Remotly:
 git push origin --delete v1.7
 ```
 
-- Add an image in the README.md file
-![image](images/git.png)
